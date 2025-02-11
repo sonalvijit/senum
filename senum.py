@@ -2,6 +2,7 @@ import requests
 import re
 import socket
 from colorama import Fore, Style
+from banner import lst
 
 def scrape_crtsh(domain):
      """Scrapes crt.sh for subdomains."""
