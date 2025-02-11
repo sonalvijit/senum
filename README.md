@@ -1,7 +1,7 @@
 # webenum
 A simple sub domain web enumeration tool 
 
-```
+```bash
 python3 senum.py -d udemy.com
 
 ███████╗███████╗███╗   ██╗██╗   ██╗███╗   ███╗
@@ -10,6 +10,7 @@ python3 senum.py -d udemy.com
 ╚════██║██╔══╝  ██║╚██╗██║██║   ██║██║╚██╔╝██║
 ███████║███████╗██║ ╚████║╚██████╔╝██║ ╚═╝ ██║
 ╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝
+               version 0.1
 
 [~] Scraping crt.sh for subdomains...
 
