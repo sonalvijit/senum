@@ -1,5 +1,5 @@
-# webenum
-A simple sub domain web enumeration tool 
+# senum
+A simple sub domain enumeration tool 
 
 ```bash
 python3 senum.py -d udemy.com
