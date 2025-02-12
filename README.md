@@ -1,6 +1,8 @@
 # SENUM (Subdomain Enumeration) _Beta_
 A simple sub domain enumeration tool 
 
+<img src="./src/senum_beta_demo.gif" style="width:500px"/>
+
 ```bash
 python3 senum.py -d udemy.com
 
