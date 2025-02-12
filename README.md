@@ -1,4 +1,4 @@
-# SENUM (Subdomain Enumeration)
+# SENUM (Subdomain Enumeration) _Beta_
 A simple sub domain enumeration tool 
 
 ```bash
