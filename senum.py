@@ -2,6 +2,7 @@ import requests
 import re
 import socket
 from colorama import Fore, Style
+import argparse
 from banner import lst
 
 def scrape_crtsh(domain):
@@ -38,8 +39,13 @@ def resolve_subdomain(subdomain):
           return None  # Ignore unresolved subdomains
 
 def main():
-     domain = input("Enter target domain: ").strip()
+     parser = argparse.ArgumentParser(description="Subdomain Enumeration Tool")
+     parser.add_argument("-d", "--domain", required=True, help="Target domain")
+     args = parser.parse_args()
 
+     domain = args.domain
+
+     print(lst[0])
      print(f"\n{Fore.BLUE}[~] Scraping crt.sh for subdomains...{Style.RESET_ALL}\n")
      subdomains = scrape_crtsh(domain)
      
